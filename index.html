@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scroll Div</title>
+    <style>
+      .scroll {
+        width: 200px;
+        height: 200px;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam
+      expedita velit asperiores obcaecati cupiditate est esse optio. Facilis
+      fuga unde perferendis quis praesentium vel fugit, ipsum iusto dicta quam
+      dignissimos? Repellendus quisquam, in rem non molestias adipisci qui
+      dolorem officiis ex obcaecati esse voluptatem aut quis nesciunt eos sed
+      magnam cum doloribus nisi sit animi maxime? Iusto, optio dolores.
+    </div>
+    <script>
+      const div = document.querySelector("div");
+      div.addEventListener("scroll", () => {
+        div.style.backgroundColor = "grey";
+      });
+    </script>
+  </body>
+</html>
